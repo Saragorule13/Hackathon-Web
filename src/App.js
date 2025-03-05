@@ -12,6 +12,8 @@ import Footer from "./components/Footer";
 import PrizePodium from "./components/PrizePodium";
 import YetToRevealPage from "./components/YetToRevealPage";
 import Introduction from "./components/Introduction"; // Import your AnimatedLogo component
+import Timeline from "./components/Timeline";
+// import Timeline from "./components/Timeline";
 
 function App() {
   const [showIntroduction, setShowIntroduction] = useState(false);
@@ -58,7 +60,9 @@ function App() {
           <Home />
           <About />
           <Domains />
+          {/* <Timeline/> */}
           <Schedule />
+          <Timeline/>
           <GeneralGuidelines />
           <PrizePodium />
           <Sponsors />
